@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #228B22;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+input, select, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #228B22;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a6f1a;
+}
+
+#listaTrechos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaTrechos li {
+    background-color: white;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-left: 5px solid;
+}
+
+.boa { border-color: green; }
+.regular { border-color: orange; }
+.ruim { border-color: red; }
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ddd;
+    margin-top: 2rem;
+}
