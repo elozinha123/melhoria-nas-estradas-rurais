@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Melhoria nas Estradas Rurais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Melhoria nas Estradas Rurais</h1>
+    </header>
+
+    <main>
+        <form id="formTrecho">
+            <input type="text" id="local" placeholder="Localização" required>
+            <select id="condicao" required>
+                <option value="">Condição</option>
+                <option value="Boa">Boa</option>
+                <option value="Regular">Regular</option>
+                <option value="Ruim">Ruim</option>
+            </select>
+            <button type="submit">Adicionar Trecho</button>
+        </form>
+
+        <section id="listaTrechos">
+            <h2>Trechos Cadastrados</h2>
+            <ul id="trechos"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Projeto Melhoria nas Estradas Rurais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
